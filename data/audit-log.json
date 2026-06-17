@@ -1,0 +1,19 @@
+[
+  {
+    "id": "audit_mqinmmxi4cyj0b",
+    "actorId": "user_partner_admin",
+    "actorName": "Partner Admin",
+    "action": "partner_approved",
+    "target": "Silk Road Logistics",
+    "createdAt": "2026-06-17T22:40:29.334Z"
+  },
+  {
+    "id": "audit_mqilkj9dqtvkbp",
+    "actorId": "system",
+    "actorName": "Auto-scoring",
+    "action": "partner_application_submitted",
+    "target": "Test Export LLP",
+    "meta": "score=85 status=auto_approved",
+    "createdAt": "2026-06-17T21:42:52.033Z"
+  }
+]

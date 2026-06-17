@@ -1,0 +1,255 @@
+[
+  {
+    "id": "partner_mqilkj97napv8o",
+    "companyName": "Test Export LLP",
+    "country": "KZ",
+    "city": "Алматы",
+    "industries": [
+      "it"
+    ],
+    "companyType": "manufacturer",
+    "regNumber": "123456789012",
+    "website": "https://example.kz",
+    "contactName": "Test Person",
+    "position": "Director",
+    "email": "test@example.kz",
+    "whatsapp": "+77011234567",
+    "telegram": "@testperson",
+    "goal": "Бұл компанияның негізгі мақсаты — Орта Азия аймағында серіктестер табу және экспорт көлемін ұлғайту, сонымен қатар жаңа технологияларды енгізу.",
+    "directions": [
+      "export-import"
+    ],
+    "wantsMembership": false,
+    "score": 85,
+    "status": "auto_approved",
+    "groups": [
+      "ОАКҚ | Өндірушілер KZ",
+      "ОАКҚ | IT & Digital",
+      "ОАКҚ | Жалпы"
+    ],
+    "createdAt": "2026-06-17T21:42:52.027Z",
+    "verification": "verified"
+  },
+  {
+    "id": "partner_1",
+    "companyName": "AgroLine KZ",
+    "country": "KZ",
+    "city": "Алматы",
+    "industries": [
+      "agro",
+      "food"
+    ],
+    "companyType": "manufacturer",
+    "regNumber": "123456789012",
+    "website": "https://agroline.example.kz",
+    "contactName": "Динара Қасымова",
+    "position": "Негізін қалаушы",
+    "email": "d.kassymova@agroline.example.kz",
+    "whatsapp": "+77011112233",
+    "telegram": "@agroline_kz",
+    "goal": "Өзбекстан мен Қырғызстанға жеміс-көкөніс өнімдерін экспорттау үшін тұрақты дистрибьютор іздеу.",
+    "directions": [
+      "export-import",
+      "regional-collaboration"
+    ],
+    "wantsMembership": true,
+    "tariffInterest": "STANDART",
+    "presentationFileName": "agroline_presentation.pdf",
+    "score": 90,
+    "status": "auto_approved",
+    "groups": [
+      "ОАКҚ | Өндірушілер KZ",
+      "ОАКҚ | Агро & Өнімдер",
+      "ОАКҚ | Жалпы"
+    ],
+    "createdAt": "2026-05-02",
+    "verification": "verified"
+  },
+  {
+    "id": "partner_2",
+    "companyName": "Silk Road Logistics",
+    "country": "KZ",
+    "city": "Шымкент",
+    "industries": [
+      "logistics",
+      "customs"
+    ],
+    "companyType": "service",
+    "regNumber": "987654321098",
+    "contactName": "Гүлнар Омарова",
+    "position": "Операциялық директор",
+    "email": "g.omarova@silkroad.example.kz",
+    "whatsapp": "+77019998877",
+    "telegram": "@silkroad_log",
+    "goal": "Аймақтық трейдерлерге арнайы тариф ұсынатын логистикалық серіктестер іздеу.",
+    "directions": [
+      "export-import"
+    ],
+    "wantsMembership": true,
+    "tariffInterest": "PREMIUM",
+    "score": 65,
+    "status": "approved",
+    "groups": [
+      "ОАКҚ | Логистика",
+      "ОАКҚ | Экспорт Клуб",
+      "ОАКҚ | Жалпы"
+    ],
+    "createdAt": "2026-05-20",
+    "verification": "verified",
+    "reviewedAt": "2026-06-17T22:40:29.328Z",
+    "reviewedBy": "Partner Admin"
+  },
+  {
+    "id": "partner_3",
+    "companyName": "DataFlow Solutions",
+    "country": "KZ",
+    "city": "Астана",
+    "industries": [
+      "it",
+      "digital"
+    ],
+    "companyType": "service",
+    "regNumber": "111222333444",
+    "website": "https://dataflow.example.kz",
+    "contactName": "Бекзат Нұрланов",
+    "position": "IT директоры",
+    "email": "b.nurlanov@dataflow.example.kz",
+    "whatsapp": "+77017654321",
+    "telegram": "@dataflow_it",
+    "goal": "ОАКҚ мүшелеріне CRM/ERP ендіру қызметін ұсыну және серіктестер тапқысы келеді.",
+    "directions": [
+      "ai-digital",
+      "turnkey-consulting"
+    ],
+    "wantsMembership": true,
+    "tariffInterest": "STANDART",
+    "referralCode": "NURTRADE-2025",
+    "presentationFileName": "dataflow_deck.pdf",
+    "score": 95,
+    "status": "auto_approved",
+    "groups": [
+      "ОАКҚ | IT & Digital",
+      "ОАКҚ | Жалпы"
+    ],
+    "createdAt": "2026-06-01",
+    "verification": "verified"
+  },
+  {
+    "id": "partner_4",
+    "companyName": "FinBridge Capital",
+    "country": "INTL",
+    "city": "Dubai",
+    "industries": [
+      "finance"
+    ],
+    "companyType": "investor",
+    "regNumber": "AE-INV-2024-7781",
+    "website": "https://www.linkedin.com/company/finbridge-capital",
+    "contactName": "Тимур Әлішер",
+    "position": "CEO",
+    "email": "t.alisher@finbridge.example.com",
+    "whatsapp": "+971501234567",
+    "goal": "Орта Азия аймағындағы экспортқа бағытталған өсу сатысындағы компанияларға инвестиция салу.",
+    "directions": [
+      "investment"
+    ],
+    "wantsMembership": true,
+    "tariffInterest": "PLATINUM",
+    "score": 55,
+    "status": "pending_review",
+    "groups": [
+      "ОАКҚ | Инвесторлар",
+      "ОАКҚ | Жалпы"
+    ],
+    "createdAt": "2026-06-05",
+    "verification": "basic"
+  },
+  {
+    "id": "partner_5",
+    "companyName": "Halal Foods Export",
+    "country": "KZ",
+    "city": "Түркістан",
+    "industries": [
+      "agro",
+      "food"
+    ],
+    "companyType": "manufacturer",
+    "regNumber": "55512",
+    "contactName": "Айгерім Сапарова",
+    "position": "Негізін қалаушы",
+    "email": "a.saparova@halalfoods.example.kz",
+    "whatsapp": "+77013332211",
+    "goal": "Жаңа нарыққа шығу.",
+    "directions": [
+      "export-import"
+    ],
+    "wantsMembership": false,
+    "score": 35,
+    "status": "needs_docs",
+    "groups": [],
+    "createdAt": "2026-06-10",
+    "verification": "basic"
+  },
+  {
+    "id": "partner_6",
+    "companyName": "Quick Profit Trading",
+    "country": "INTL",
+    "industries": [
+      "finance"
+    ],
+    "companyType": "investor",
+    "regNumber": "n/a",
+    "contactName": "Unknown",
+    "position": "Agent",
+    "email": "info@quickprofit.example.com",
+    "whatsapp": "+10000000000",
+    "goal": "Кепілдендірілген пайда.",
+    "directions": [
+      "investment"
+    ],
+    "wantsMembership": false,
+    "score": 15,
+    "status": "rejected",
+    "groups": [],
+    "createdAt": "2026-05-15",
+    "reviewedAt": "2026-05-16",
+    "reviewedBy": "Partner Admin",
+    "rejectionReason": "Тіркеу деректері расталмады, БСН форматы жарамсыз.",
+    "verification": "basic"
+  },
+  {
+    "id": "partner_7",
+    "companyName": "Tashkent Textile Group",
+    "country": "UZ",
+    "city": "Toshkent",
+    "industries": [
+      "manufacturing"
+    ],
+    "companyType": "manufacturer",
+    "regNumber": "300112233",
+    "website": "https://tashkenttextile.example.uz",
+    "contactName": "Жасур Каримов",
+    "position": "Сату директоры",
+    "email": "j.karimov@tashkenttextile.example.uz",
+    "whatsapp": "+998901234567",
+    "telegram": "@tashkent_textile",
+    "goal": "Қазақстан мен Қырғызстан нарығына тоқыма өнімдерін жеткізетін дистрибьютор тауыр алу мақсатында серіктестік орнату.",
+    "directions": [
+      "export-import",
+      "regional-collaboration"
+    ],
+    "wantsMembership": true,
+    "tariffInterest": "STANDART",
+    "presentationFileName": "tashkent_textile_catalog.pdf",
+    "score": 100,
+    "status": "approved",
+    "groups": [
+      "ОАКҚ | Саудагерлер CA",
+      "ОАКҚ | Жалпы"
+    ],
+    "createdAt": "2026-04-18",
+    "reviewedAt": "2026-04-19",
+    "reviewedBy": "Partner Admin",
+    "verification": "gold"
+  }
+]

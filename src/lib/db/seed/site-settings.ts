@@ -1,0 +1,34 @@
+import type { SiteSettings } from "../types";
+
+export const siteSettingsSeed: SiteSettings = {
+  siteName: "CAEA — Central Asia Entrepreneurs Association",
+  heroStats: { trustedBy: 1800, projects: 640, successRate: 97, experience: 20 },
+  contact: {
+    phone: "+7 (727) 000-00-00",
+    email: "info@caea.kz",
+    address: "Қазақстан, Алматы қаласы, Жетісу ауданы, Рысқұлов даңғылы, үй 52, 050050",
+    mapEmbedUrl:
+      "https://www.google.com/maps?q=Rysqulov+avenue+52+Almaty&output=embed",
+  },
+  // Social links left as placeholders — to be filled in once the association provides real handles.
+  socials: { facebook: "", instagram: "", linkedin: "", youtube: "" },
+  // Messenger deep-links left as placeholders — to be filled in once the
+  // association provides the real WhatsApp/Telegram/WeChat handles.
+  messengers: { whatsapp: "", telegram: "", wechat: "" },
+  integrations: {
+    telegramBot: { label: "Telegram Bot API", connected: false },
+    whatsappCloud: { label: "WhatsApp Cloud API", connected: false },
+    kaspiPay: { label: "Kaspi Pay", connected: false },
+    stripe: { label: "Stripe", connected: false },
+    payme: { label: "Payme (UZ)", connected: false },
+    openai: { label: "OpenAI API", connected: false },
+    claude: { label: "Claude API", connected: false },
+    egov: { label: "eGov / ЭЦП (KZ)", connected: false },
+    goszakup: { label: "goszakup.gov.kz", connected: false },
+    googleMaps: { label: "Google Maps API", connected: false },
+    bitrix24: { label: "Bitrix24 CRM", connected: false },
+    zoom: { label: "Zoom API", connected: false },
+    s3: { label: "AWS S3 / MinIO", connected: false },
+  },
+  ga4Id: "",
+};

@@ -1,0 +1,178 @@
+import type { ServiceDirection } from "../types";
+
+export const servicesSeed: ServiceDirection[] = [
+  {
+    id: "svc_export",
+    slug: "export-import",
+    icon: "Ship",
+    title: { kk: "Экспорт-Импорт", ru: "Экспорт-Импорт", en: "Export & Import" },
+    summary: {
+      kk: "Шет елдік нарыққа шығу, кеден рәсімдері, логистика және B2B матчмейкинг",
+      ru: "Выход на зарубежные рынки, таможенные процедуры, логистика и B2B-мэтчмейкинг",
+      en: "Entering foreign markets, customs procedures, logistics and B2B matchmaking",
+    },
+    body: {
+      kk: "Біз сіздің өніміңізді шетелдік нарыққа шығаруды толық циклда сүйемелдейміз: нарықты талдау, кеден декларациясы, логистикалық дәліз таңдау, сертификаттау және сатып алушымен тікелей матчмейкинг. Сараптама тобымыз ҚХР, Ресей, Түркия және Жайпарап елдеріне экспорт жасаған 200+ кейспен жұмыс істеді.",
+      ru: "Мы сопровождаем вывод вашей продукции на зарубежные рынки полным циклом: анализ рынка, таможенное декларирование, выбор логистического коридора, сертификация и прямой мэтчмейкинг с покупателем. Наша команда имеет опыт 200+ кейсов экспорта в Китай, Россию, Турцию и страны Залива.",
+      en: "We support the full cycle of taking your product to foreign markets: market analysis, customs declaration, logistics corridor selection, certification and direct buyer matchmaking. Our team has delivered 200+ export cases to China, Russia, Turkey and the Gulf states.",
+    },
+    cover: "/images/bg/dashboard-presentation.webp",
+    stats: [
+      { label: { kk: "Аяқталған экспорт кейсі", ru: "Завершённых экспорт-кейсов", en: "Completed export cases" }, value: "200+" },
+      { label: { kk: "Бағыт елі", ru: "Стран направления", en: "Destination countries" }, value: "15+" },
+    ],
+  },
+  {
+    id: "svc_regional",
+    slug: "regional-collaboration",
+    icon: "Network",
+    title: { kk: "Аймақтық коллаборация", ru: "Региональная коллаборация", en: "Regional Collaboration" },
+    summary: {
+      kk: "Орта Азия B2B биржасы, ортақ брендинг және OEM серіктестік мүмкіндіктері",
+      ru: "B2B-биржа Центральной Азии, совместный брендинг и возможности OEM-партнёрства",
+      en: "Central Asia B2B exchange, co-branding and OEM partnership opportunities",
+    },
+    body: {
+      kk: "5 елдің кәсіпкерлерін біріктіріп, бірлескен өндіріс, ортақ брендинг және OEM келісімдерін ұйымдастырамыз. B2B биржа арқылы сұраныс пен ұсынысты автоматты түрде сәйкестендіреміз.",
+      ru: "Объединяем предпринимателей 5 стран для совместного производства, совместного брендинга и OEM-соглашений. Биржа B2B автоматически сопоставляет спрос и предложение.",
+      en: "We bring together entrepreneurs from 5 countries for joint production, co-branding and OEM agreements, automatically matching supply and demand through our B2B exchange.",
+    },
+    cover: "/images/bg/handshake-network.webp",
+  },
+  {
+    id: "svc_science",
+    slug: "science-business",
+    icon: "FlaskConical",
+    title: { kk: "Ғылым–Бизнес", ru: "Наука–Бизнес", en: "Science–Business" },
+    summary: {
+      kk: "R&D серіктестік, стартап акселератор, патенттеу және грант навигациясы",
+      ru: "R&D-партнёрство, стартап-акселератор, патентование и навигация по грантам",
+      en: "R&D partnerships, startup accelerator, patenting and grant navigation",
+    },
+    body: {
+      kk: "ЖОО мен зерттеу орталықтарын бизнеспен байланыстырып, R&D жобаларын коммерцияландыруға көмектесеміз. Стартаптар үшін акселерация бағдарламасы, патент рәсімдеу және мемлекеттік/халықаралық грант іздеу қызметін ұсынамыз.",
+      ru: "Связываем университеты и исследовательские центры с бизнесом, помогая коммерциализировать R&D-проекты. Для стартапов предлагаем программу акселерации, патентование и поиск государственных/международных грантов.",
+      en: "We connect universities and research centers with business, helping commercialize R&D projects. For startups we offer an acceleration program, patent filing support and grant navigation.",
+    },
+    cover: "/images/bg/boardroom-analytics.webp",
+  },
+  {
+    id: "svc_turnkey",
+    slug: "turnkey-consulting",
+    icon: "ClipboardCheck",
+    title: { kk: "Өкілдік басқару (Turnkey Consulting)", ru: "Управление под ключ (Turnkey Consulting)", en: "Turnkey Consulting" },
+    summary: {
+      kk: "Диагностика → стратегия → іске асыру — кеңесті біз өзіміз жүзеге асырамыз",
+      ru: "Диагностика → стратегия → реализация — мы сами внедряем рекомендации",
+      en: "Diagnostics → strategy → implementation — we execute the advice ourselves",
+    },
+    body: {
+      kk: "Нарықтағы жалғыз УТП: біз тек кеңес бермейміз, оны бизнесіңізде нақты жүзеге асырамыз. Диагностикадан бастап, стратегия құрып, команда бөліп, нәтижеге дейін жетелейміз.",
+      ru: "Единственное УТП на рынке: мы не просто консультируем, а внедряем решения в вашем бизнесе. От диагностики до стратегии и выделенной команды — ведём до результата.",
+      en: "The only USP on the market: we don't just advise — we implement the solution inside your business, from diagnostics to strategy to a dedicated delivery team.",
+    },
+    cover: "/images/bg/meeting-room.webp",
+  },
+  {
+    id: "svc_partners",
+    slug: "partner-network",
+    icon: "Handshake",
+    title: { kk: "Серіктестік желісі", ru: "Сеть партнёрств", en: "Partner Network" },
+    summary: {
+      kk: "CIPE, ШЫҰ Бизнес кеңесі, ұлттық сауда-өнеркәсіп палаталарымен байланыс",
+      ru: "Связи с CIPE, Деловым советом ШОС, национальными торгово-промышленными палатами",
+      en: "Connections with CIPE, the SCO Business Council, national chambers of commerce",
+    },
+    body: {
+      kk: "Халықаралық және ұлттық институттармен орнатылған тікелей байланыс арқылы мүшелерімізге қосымша мүмкіндіктер ашамыз: бірлескен форумдар, делегациялар және ресми ұсыныс хаттары.",
+      ru: "Через установленные прямые связи с международными и национальными институтами открываем дополнительные возможности для членов: совместные форумы, делегации и официальные письма поддержки.",
+      en: "Through direct ties with international and national institutions, we unlock extra opportunities for members: joint forums, delegations and official letters of support.",
+    },
+    cover: "/images/bg/handshake-network.webp",
+  },
+  {
+    id: "svc_ai",
+    slug: "ai-digital",
+    icon: "Cpu",
+    title: { kk: "ЖИ / Digital", ru: "ИИ / Digital", en: "AI / Digital" },
+    summary: {
+      kk: "AI аудит, бизнес-процесс автоматтандыру, CRM/ERP ендіру, e-commerce",
+      ru: "AI-аудит, автоматизация бизнес-процессов, внедрение CRM/ERP, e-commerce",
+      en: "AI audits, business process automation, CRM/ERP implementation, e-commerce",
+    },
+    body: {
+      kk: "Бизнесіңіздің цифрлық жетілу деңгейін тексереміз, AI аудит жүргіземіз және CRM/ERP жүйелерін ендіру арқылы операциялық тиімділікті арттырамыз. E-commerce витрина құру да қызмет аясында.",
+      ru: "Оцениваем уровень цифровой зрелости вашего бизнеса, проводим AI-аудит и повышаем операционную эффективность через внедрение CRM/ERP. Также создаём e-commerce витрины.",
+      en: "We assess your business's digital maturity, run AI audits and boost operational efficiency through CRM/ERP implementation, including building e-commerce storefronts.",
+    },
+    cover: "/images/bg/dashboard-presentation.webp",
+  },
+  {
+    id: "svc_investment",
+    slug: "investment",
+    icon: "TrendingUp",
+    title: { kk: "Инвестиция", ru: "Инвестиции", en: "Investment" },
+    summary: {
+      kk: "Инвестициялық меморандум, 500+ инвестор базасы, ШТИ, IPO дайындық",
+      ru: "Инвестиционный меморандум, база 500+ инвесторов, прямые инвестиции, подготовка к IPO",
+      en: "Investment memoranda, 500+ investor database, FDI, IPO readiness",
+    },
+    body: {
+      kk: "Инвестициялық меморандум дайындаудан бастап, 500+ тексерілген инвестордан тұратын базамыз арқылы тікелей байланыс орнатуға дейін сүйемелдейміз. Ірі компаниялар үшін IPO дайындық қызметі бар.",
+      ru: "Сопровождаем от подготовки инвестиционного меморандума до прямого выхода на проверенную базу из 500+ инвесторов. Для крупных компаний доступна услуга подготовки к IPO.",
+      en: "We support you from drafting the investment memorandum to direct introductions within our vetted base of 500+ investors. IPO-readiness services are available for larger companies.",
+    },
+    cover: "/images/bg/boardroom-analytics.webp",
+  },
+  {
+    id: "svc_government",
+    slug: "government-support",
+    icon: "Landmark",
+    title: { kk: "Мемлекеттік қолдау", ru: "Государственная поддержка", en: "Government Support" },
+    summary: {
+      kk: "Тендер навигациясы, субсидия, «Бастау», «Жол картасы» бағдарламалары",
+      ru: "Навигация по тендерам, субсидии, программы «Бастау», «Дорожная карта»",
+      en: "Tender navigation, subsidies, “Bastau” and “Roadmap” government programs",
+    },
+    body: {
+      kk: "goszakup.kz тендерлерін мониторинг жасап, сізге сай мемлекеттік бағдарламалар мен субсидияларды табамыз. «Бастау», «Жол картасы» сияқты бағдарламаларға өтінім дайындауда толық сүйемелдейміз.",
+      ru: "Мониторим тендеры на goszakup.kz и находим подходящие государственные программы и субсидии. Полностью сопровождаем подачу заявок на программы «Бастау», «Дорожная карта» и др.",
+      en: "We monitor goszakup.kz tenders and find suitable government programs and subsidies, fully supporting applications to programs such as “Bastau” and the “Roadmap”.",
+    },
+    cover: "/images/bg/meeting-room.webp",
+  },
+  {
+    id: "svc_legal",
+    slug: "legal",
+    icon: "Scale",
+    title: { kk: "Заңдық-рәсімдік", ru: "Юридическое сопровождение", en: "Legal & Compliance" },
+    summary: {
+      kk: "Тіркеу, лицензиялау, еңбек заңы, сауда нышаны, арбитраж",
+      ru: "Регистрация, лицензирование, трудовое право, товарные знаки, арбитраж",
+      en: "Incorporation, licensing, labor law, trademarks, arbitration",
+    },
+    body: {
+      kk: "Компания тіркеуден бастап, лицензия алу, еңбек заңнамасына сәйкестендіру, сауда нышанын тіркеу және дауларды арбитраж арқылы шешуге дейін толық заңдық қолдау көрсетеміз.",
+      ru: "Оказываем полную юридическую поддержку: от регистрации компании и получения лицензий до соответствия трудовому законодательству, регистрации товарных знаков и разрешения споров через арбитраж.",
+      en: "We provide full legal support: company incorporation, licensing, labor law compliance, trademark registration and dispute resolution through arbitration.",
+    },
+    cover: "/images/bg/meeting-room.webp",
+  },
+  {
+    id: "svc_finance",
+    slug: "financial-management",
+    icon: "Wallet",
+    title: { kk: "Қаржылық басқару", ru: "Финансовый менеджмент", en: "Financial Management" },
+    summary: {
+      kk: "Бухгалтерия аутсорсинг, кредит, субсидия, CFO аутсорсинг қызметі",
+      ru: "Бухгалтерский аутсорсинг, кредиты, субсидии, услуга CFO на аутсорсе",
+      en: "Accounting outsourcing, credit & subsidy navigation, outsourced CFO services",
+    },
+    body: {
+      kk: "Толық бухгалтерия аутсорсингінен бастап, банк несиесі мен субсидия алуға дайындық, тіпті аутсорсингтегі CFO қызметіне дейін — қаржылық тұрақтылығыңызды біз қамтамасыз етеміз.",
+      ru: "От полного бухгалтерского аутсорсинга и подготовки к получению банковского кредита/субсидии до услуги CFO на аутсорсе — обеспечиваем вашу финансовую устойчивость.",
+      en: "From full accounting outsourcing and bank credit/subsidy readiness to an outsourced CFO service — we help secure your financial stability.",
+    },
+    cover: "/images/bg/dashboard-presentation.webp",
+  },
+];

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "notif_mqinmmxnay7mki",
+    "type": "partner_approved",
+    "message": "Silk Road Logistics бекітілді",
+    "recipientRole": "member",
+    "channel": "email",
+    "relatedId": "partner_2",
+    "createdAt": "2026-06-17T22:40:29.339Z",
+    "read": false
+  },
+  {
+    "id": "notif_mqilkj9nsr0t38",
+    "type": "partner_auto_approved",
+    "message": "Test Export LLP авто-бекітілді (балл: 85)",
+    "recipientRole": "partner_admin",
+    "channel": "system",
+    "relatedId": "partner_mqilkj97napv8o",
+    "createdAt": "2026-06-17T21:42:52.043Z",
+    "read": false
+  }
+]

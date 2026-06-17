@@ -1,0 +1,78 @@
+import type { Testimonial } from "../types";
+
+// Illustrative sample testimonials for demo purposes — replace with real member
+// quotes via the Admin → Content management module before going live.
+export const testimonialsSeed: Testimonial[] = [
+  {
+    id: "tm_1",
+    name: "Асхат Сейітов",
+    role: "Бас директор",
+    company: "NurTrade Group",
+    quote: {
+      kk: "ОАКҚ арқасында 4 ай ішінде Қытайға бірінші экспорт партиямызды жібердік. Кеден рәсімдерінен бастап логистикаға дейін команда бізбен бірге жүрді.",
+      ru: "Благодаря ЦАКП за 4 месяца отправили первую экспортную партию в Китай. Команда сопровождала нас от таможенных процедур до логистики.",
+      en: "Thanks to CAEA we shipped our first export batch to China within 4 months — the team supported us from customs to logistics.",
+    },
+    rating: 5,
+  },
+  {
+    id: "tm_2",
+    name: "Динара Қасымова",
+    role: "Негізін қалаушы",
+    company: "AgroLine KZ",
+    quote: {
+      kk: "Серіктестер каталогы арқылы Өзбекстаннан тұрақты жеткізушіні таптық. Авто-скоринг жүйесі сенімділікті алдын ала көрсетті.",
+      ru: "Через каталог партнёров нашли надёжного поставщика из Узбекистана. Система авто-скоринга заранее показала уровень доверия.",
+      en: "Through the partner catalog we found a reliable supplier in Uzbekistan — the auto-scoring system showed the trust level upfront.",
+    },
+    rating: 5,
+  },
+  {
+    id: "tm_3",
+    name: "Тимур Әлішер",
+    role: "CEO",
+    company: "FinBridge Capital",
+    quote: {
+      kk: "Инвестициялық меморандумды дайындауда тереңдетілген сараптама алдым, нәтижесінде 2 айда инвестор тарта алдым.",
+      ru: "Получил глубокую экспертизу при подготовке инвестиционного меморандума — в итоге привлёк инвестора за 2 месяца.",
+      en: "We received deep expertise preparing our investment memorandum and secured an investor within two months.",
+    },
+    rating: 5,
+  },
+  {
+    id: "tm_4",
+    name: "Гүлнар Омарова",
+    role: "Операциялық директор",
+    company: "Silk Road Logistics",
+    quote: {
+      kk: "Тендер навигация қызметі арқасында мемлекеттік сатып алуда 3 жоба ұттық. Хабарлама жүйесі ешбір мерзімді жіберіп алмауға көмектеседі.",
+      ru: "Благодаря навигации по тендерам выиграли 3 проекта в госзакупках. Система уведомлений помогает не пропускать сроки.",
+      en: "Thanks to tender navigation we won 3 government procurement projects — the notification system makes sure we never miss a deadline.",
+    },
+    rating: 4,
+  },
+  {
+    id: "tm_5",
+    name: "Бекзат Нұрланов",
+    role: "IT директоры",
+    company: "DataFlow Solutions",
+    quote: {
+      kk: "AI-аудит бизнес-процестерімізді 30%-ға тездетті. CRM ендіру бойынша ұсыныстар нақты әрі іс жүзінде тексерілген.",
+      ru: "AI-аудит ускорил наши бизнес-процессы на 30%. Рекомендации по внедрению CRM конкретны и проверены на практике.",
+      en: "The AI audit sped up our business processes by 30% — the CRM implementation recommendations were concrete and field-tested.",
+    },
+    rating: 5,
+  },
+  {
+    id: "tm_6",
+    name: "Айгерім Сапарова",
+    role: "Негізін қалаушы",
+    company: "Halal Foods Export",
+    quote: {
+      kk: "HALAL сертификатын алуда заңдық бөлім бізге толық қолдау көрсетті. Қазір өнімдерді 4 елге экспорттаймыз.",
+      ru: "Юридический отдел полностью поддержал нас в получении сертификата HALAL. Сейчас экспортируем продукцию в 4 страны.",
+      en: "The legal team fully supported us through HALAL certification — we now export to 4 countries.",
+    },
+    rating: 5,
+  },
+];

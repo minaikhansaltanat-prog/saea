@@ -20,7 +20,7 @@ export function LeadershipIntro({
   return (
     <section className="section-py bg-white">
       <Container className="grid items-center gap-14 lg:grid-cols-2">
-        <div className="relative mx-auto max-w-md lg:mx-0">
+        <div className="relative mx-auto w-full max-w-md lg:mx-0">
           <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] shadow-card">
             {leader?.photo ? (
               <Image src={leader.photo} alt={leader.name} fill className="object-cover" sizes="420px" />

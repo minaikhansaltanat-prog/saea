@@ -64,10 +64,10 @@ export function SiteHeader({
           scrolled ? "border-navy-100 bg-white/95 shadow-soft backdrop-blur-md" : "border-transparent bg-white"
         )}
       >
-        <Container className="flex h-[72px] items-center justify-between lg:h-20">
+        <Container className="flex h-[72px] items-center gap-3 lg:h-20">
           <Logo locale={locale} variant="light" />
 
-          <nav className="hidden items-center gap-1 xl:flex">
+          <nav className="hidden min-w-0 flex-1 items-center gap-0.5 xl:flex">
             {mainNavItems.map((item) => {
               const href = withLocale(locale, item.href);
               const active = pathname === href;
@@ -76,7 +76,8 @@ export function SiteHeader({
                   key={item.key}
                   href={href}
                   className={clsx(
-                    "rounded-full px-3.5 py-2 text-[13.5px] font-semibold transition-colors",
+                    "rounded-full px-2 py-1.5 text-[13px] font-semibold leading-[1.15] transition-colors",
+                    item.compact ? "w-16 text-center" : "whitespace-nowrap",
                     active ? "bg-navy-800 text-white" : "text-navy-700 hover:bg-navy-800/5"
                   )}
                 >
@@ -86,7 +87,7 @@ export function SiteHeader({
             })}
           </nav>
 
-          <div className="flex items-center gap-2">
+          <div className="flex shrink-0 items-center gap-2">
             <div className="hidden lg:block">
               <LanguageSwitcher locale={locale} />
             </div>

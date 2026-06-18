@@ -26,7 +26,7 @@ export function Logo({ locale, variant = "light" }: { locale: string; variant?: 
         </span>
         <span
           className={clsx(
-            "text-[10px] font-medium uppercase tracking-wider sm:text-[11px]",
+            "text-[10px] font-medium uppercase tracking-wider sm:text-[11px] xl:hidden 2xl:block",
             variant === "light" ? "text-navy-500" : "text-white/70"
           )}
         >

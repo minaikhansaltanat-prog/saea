@@ -5,12 +5,12 @@ import clsx from "clsx";
 export function Logo({ locale, variant = "light" }: { locale: string; variant?: "light" | "dark" }) {
   return (
     <Link href={`/${locale}`} className="flex items-center gap-2.5 shrink-0" aria-label="CAEA">
-      <span className="relative block h-11 w-[37px] sm:h-[52px] sm:w-11">
+      <span className="relative block h-9 w-[30px] sm:h-10 sm:w-[34px]">
         <Image
           src="/images/brand/logo-icon.png"
           alt="CAEA logo"
           fill
-          sizes="52px"
+          sizes="34px"
           className="object-contain"
           priority
         />
@@ -26,7 +26,7 @@ export function Logo({ locale, variant = "light" }: { locale: string; variant?: 
         </span>
         <span
           className={clsx(
-            "text-[10px] font-medium uppercase tracking-wider sm:text-[11px] xl:hidden 2xl:block",
+            "hidden min-[480px]:block text-[10px] font-medium uppercase tracking-wider sm:text-[11px] xl:hidden 2xl:block",
             variant === "light" ? "text-navy-500" : "text-white/70"
           )}
         >

@@ -64,7 +64,7 @@ export function SiteHeader({
           scrolled ? "border-navy-100 bg-white/95 shadow-soft backdrop-blur-md" : "border-transparent bg-white"
         )}
       >
-        <Container className="flex h-[72px] items-center gap-3 lg:h-20">
+        <Container className="flex h-[72px] items-center gap-1.5 sm:gap-3 lg:h-20">
           <Logo locale={locale} variant="light" />
 
           <nav className="hidden min-w-0 flex-1 items-center gap-0.5 xl:flex">
@@ -87,7 +87,7 @@ export function SiteHeader({
             })}
           </nav>
 
-          <div className="flex shrink-0 items-center gap-2">
+          <div className="flex shrink-0 items-center gap-1 sm:gap-2">
             <div className="hidden lg:block">
               <LanguageSwitcher locale={locale} />
             </div>
@@ -109,14 +109,14 @@ export function SiteHeader({
             </LinkButton>
 
             <div className="lg:hidden">
-              <LanguageSwitcher locale={locale} />
+              <LanguageSwitcher locale={locale} variant="compact" />
             </div>
 
             <button
               type="button"
               onClick={() => setDrawerOpen(true)}
               aria-label="Меню"
-              className="flex h-11 w-11 items-center justify-center rounded-full text-navy-800 transition-colors hover:bg-navy-800/5 xl:hidden"
+              className="flex h-10 w-10 items-center justify-center rounded-full text-navy-800 transition-colors hover:bg-navy-800/5 xl:hidden"
             >
               <Menu className="h-6 w-6" />
             </button>

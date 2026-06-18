@@ -15,7 +15,7 @@ export function LanguageSwitcher({
   onNavigate,
 }: {
   locale: string;
-  variant?: "desktop" | "mobile";
+  variant?: "desktop" | "mobile" | "compact";
   dark?: boolean;
   onNavigate?: () => void;
 }) {
@@ -47,20 +47,27 @@ export function LanguageSwitcher({
         aria-expanded={open}
         aria-label="Тілді таңдау"
         className={clsx(
-          "inline-flex items-center gap-1.5 rounded-full font-semibold transition-colors",
-          variant === "desktop"
-            ? clsx(
-                "px-3 py-2 text-sm",
-                dark ? "text-white/85 hover:bg-white/10" : "text-navy-700 hover:bg-navy-800/5"
-              )
-            : "w-full justify-between border border-navy-100 bg-navy-50 px-4 py-3 text-navy-800"
+          "inline-flex items-center font-semibold transition-colors",
+          variant === "desktop" &&
+            clsx("gap-1.5 rounded-full px-3 py-2 text-sm", dark ? "text-white/85 hover:bg-white/10" : "text-navy-700 hover:bg-navy-800/5"),
+          variant === "mobile" && "w-full justify-between gap-1.5 rounded-full border border-navy-100 bg-navy-50 px-4 py-3 text-navy-800",
+          variant === "compact" && "h-10 w-10 justify-center gap-0.5 rounded-full text-navy-700 hover:bg-navy-800/5"
         )}
       >
-        <span className="flex items-center gap-1.5">
-          <Globe className={variant === "desktop" ? "h-4 w-4" : "h-5 w-5"} strokeWidth={2} />
-          <span className={variant === "desktop" ? "text-xs font-bold" : "text-sm font-bold"}>{current.short}</span>
-        </span>
-        <ChevronDown className={clsx("h-4 w-4 transition-transform", open && "rotate-180")} />
+        {variant === "compact" ? (
+          <>
+            <Globe className="h-[18px] w-[18px]" strokeWidth={2} />
+            <ChevronDown className={clsx("h-3 w-3 transition-transform", open && "rotate-180")} />
+          </>
+        ) : (
+          <>
+            <span className="flex items-center gap-1.5">
+              <Globe className={variant === "desktop" ? "h-4 w-4" : "h-5 w-5"} strokeWidth={2} />
+              <span className={variant === "desktop" ? "text-xs font-bold" : "text-sm font-bold"}>{current.short}</span>
+            </span>
+            <ChevronDown className={clsx("h-4 w-4 transition-transform", open && "rotate-180")} />
+          </>
+        )}
       </button>
 
       <AnimatePresence>
@@ -71,9 +78,9 @@ export function LanguageSwitcher({
             exit={{ opacity: 0, y: -6, scale: 0.98 }}
             transition={{ duration: 0.16 }}
             className={clsx(
-              variant === "desktop"
-                ? "absolute right-0 z-50 mt-2 w-56 overflow-hidden rounded-2xl bg-white py-2 shadow-glass ring-1 ring-navy-900/5"
-                : "relative z-50 mt-2 w-full overflow-hidden rounded-2xl bg-white py-2 shadow-card ring-1 ring-navy-900/5"
+              variant === "mobile"
+                ? "relative z-50 mt-2 w-full overflow-hidden rounded-2xl bg-white py-2 shadow-card ring-1 ring-navy-900/5"
+                : "absolute right-0 z-50 mt-2 w-56 overflow-hidden rounded-2xl bg-white py-2 shadow-glass ring-1 ring-navy-900/5"
             )}
           >
             {locales.map((l) => (

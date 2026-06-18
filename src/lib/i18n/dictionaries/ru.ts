@@ -135,7 +135,7 @@ const ru: Dictionary = {
     ctaBannerTitle: "Обсудим ваши бизнес-цели вместе",
     ctaBannerText: "Зарегистрируйтесь сегодня и начните с бесплатной консультации — команда экспертов свяжется в течение 24 часов.",
     ctaBannerButton: "Получить бесплатную консультацию",
-    partnersEyebrow: "Нам доверяют",
+    partnersEyebrow: "Страны присутствия партнёрских организаций",
     partnersTitle: "Наши партнёры и международная сеть",
     membershipTeaserEyebrow: "Членство",
     membershipTeaserTitle: "Выберите подходящий тариф",

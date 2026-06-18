@@ -133,7 +133,7 @@ const kk = {
     ctaBannerTitle: "Бизнес мақсаттарыңызды бірге талқылайық",
     ctaBannerText: "Бүгін тіркеліп, тегін бастапқы консультациядан бастаңыз — сараптама тобымыз 24 сағат ішінде хабарласады.",
     ctaBannerButton: "Тегін кеңес алу",
-    partnersEyebrow: "Сенім білдірген ұйымдар",
+    partnersEyebrow: "Серіктес ұйымдар орналасқан елдер",
     partnersTitle: "Біздің серіктестер мен халықаралық желі",
     membershipTeaserEyebrow: "Мүшелік",
     membershipTeaserTitle: "Бизнесіңізге сай тарифті таңдаңыз",

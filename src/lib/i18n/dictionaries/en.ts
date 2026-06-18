@@ -135,7 +135,7 @@ const en: Dictionary = {
     ctaBannerTitle: "Let's discuss your business goals together",
     ctaBannerText: "Register today and start with a free initial consultation — our expert team will reach out within 24 hours.",
     ctaBannerButton: "Get a free consultation",
-    partnersEyebrow: "Trusted by",
+    partnersEyebrow: "Countries with partner organizations",
     partnersTitle: "Our partners and international network",
     membershipTeaserEyebrow: "Membership",
     membershipTeaserTitle: "Choose the plan that fits your business",

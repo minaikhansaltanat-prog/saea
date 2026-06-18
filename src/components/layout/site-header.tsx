@@ -108,6 +108,10 @@ export function SiteHeader({
               {dict.header.getQuote}
             </LinkButton>
 
+            <div className="lg:hidden">
+              <LanguageSwitcher locale={locale} />
+            </div>
+
             <button
               type="button"
               onClick={() => setDrawerOpen(true)}

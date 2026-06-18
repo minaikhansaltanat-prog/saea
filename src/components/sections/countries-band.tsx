@@ -7,6 +7,8 @@ const COUNTRIES = [
   { flag: "🇰🇬", name: "Қырғызстан" },
   { flag: "🇹🇯", name: "Тәжікстан" },
   { flag: "🇹🇲", name: "Түрікменстан" },
+  { flag: "🇨🇳", name: "Қытай" },
+  { flag: "🇷🇺", name: "Ресей" },
 ];
 
 export function CountriesBand({ dict }: { dict: Dictionary }) {

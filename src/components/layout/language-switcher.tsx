@@ -51,13 +51,16 @@ export function LanguageSwitcher({
           variant === "desktop" &&
             clsx("gap-1.5 rounded-full px-3 py-2 text-sm", dark ? "text-white/85 hover:bg-white/10" : "text-navy-700 hover:bg-navy-800/5"),
           variant === "mobile" && "w-full justify-between gap-1.5 rounded-full border border-navy-100 bg-navy-50 px-4 py-3 text-navy-800",
-          variant === "compact" && "h-10 w-10 justify-center gap-0.5 rounded-full text-navy-700 hover:bg-navy-800/5"
+          variant === "compact" && "h-10 gap-1 rounded-full px-2 text-navy-700 hover:bg-navy-800/5"
         )}
       >
         {variant === "compact" ? (
           <>
-            <Globe className="h-[18px] w-[18px]" strokeWidth={2} />
-            <ChevronDown className={clsx("h-3 w-3 transition-transform", open && "rotate-180")} />
+            <Globe className="h-[18px] w-[18px] shrink-0" strokeWidth={2} />
+            <span className="flex flex-col items-center leading-none">
+              <span className="text-[9px] font-bold tracking-wide">{current.short}</span>
+              <ChevronDown className={clsx("h-2.5 w-2.5 transition-transform", open && "rotate-180")} />
+            </span>
           </>
         ) : (
           <>
